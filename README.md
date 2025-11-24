@@ -7,6 +7,8 @@ Geography: Germany has a significantly higher churn rate (32.4%), which is nearl
 Age: The 35 to 55 age bracket shows the highest absolute number of customer exits.
 Credit Card Ownership (HasCrCard): Credit card ownership does not appear to be a significant predictor of churn, as the exit rates for customers with and without a card are very similar (20.2% vs. 20.8%).
 Tenure: Churn is distributed across all tenure lengths, but the 35-55 age group appears to have high churn regardless of tenure.
+
+
 🤖 Machine Learning AnalysisThe second phase involved preparing the data for modeling, including encoding categorical features and scaling numerical features, followed by training and evaluating three different classification models.
 1. Data PreprocessingFeature Engineering/Encoding: Categorical features (Geography and Gender) were converted into numerical format using LabelEncoder.
 2. Data Splitting: The data was split into features ($\text{X}$) and the target variable ($\text{Y}$ - 'Exited').
