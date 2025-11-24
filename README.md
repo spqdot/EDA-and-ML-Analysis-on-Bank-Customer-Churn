@@ -12,4 +12,12 @@ Tenure: Churn is distributed across all tenure lengths, but the 35-55 age group 
 2. Data Splitting: The data was split into features ($\text{X}$) and the target variable ($\text{Y}$ - 'Exited').
 3. Scaling: Numerical features for the Logistic Regression model were scaled using StandardScaler. For Decision Tree and Random Forest models, the original unscaled data was used.
 
+ Model Evaluation:
+ The models were evaluated based on Accuracy and Precision.ModelModel Training DataAccuracy
+
+Model,               Model Training Data,       Accuracy,            "Confusion Matrix (TN, FP / FN, TP)",            Precision for Exited (1)
+Logistic Regression,       Scaled,                 81.50%,                  (1559322​4871​),                                     59.66%
+Decision Tree,            Unscaled,                78.20%,                 (1358187​249206​),                                    45.29%
+Random Forest,            Unscaled,                86.15%,                  (1542226​51181​),                                    78.02%
+
 
